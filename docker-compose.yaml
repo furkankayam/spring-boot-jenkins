@@ -3,7 +3,7 @@ services:
 
   # Jenkins Service
   jenkins:
-    image: jenkins/jenkins:lts
+    build: ./jenkins
     container_name: jenkins
     restart: unless-stopped
     user: root
