@@ -17,7 +17,7 @@ public class SpringBootJenkinsApplication {
 
     @GetMapping("/hello")
     public String sayHello() {
-        return "Hello World v0.0.1";
+        return "Hello World v0.0.2";
     }
 
 }
