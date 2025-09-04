@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: spring-boot-jenkins
+
+server:
+  port: 8181
